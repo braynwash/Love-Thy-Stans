@@ -7,6 +7,15 @@ define bill = Character("Bill")
 define stan = Character("Stan")
 define ford = Character("Ford")
 
+#define images
+image bill excited:
+    "bill excited.png"
+    zoom 0.35
+
+image bg living room:
+    "bg living room.jpg"
+    zoom 0.75
+
 
 # The game starts here.
 
@@ -16,17 +25,17 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg LTS_BACKGROUND_LIVING_ROOM_PLACEHOLDER
+    scene bg living room
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    show bill LTS_BILL_HAPPY
+    show bill excited
 
     # These display lines of dialogue.
 
-    bill "You've created a new Ren'Py game."
+    bill "I'm bill monkey wrench and I love kissing ford"
 
     bill "Once you add a story, pictures, and music, you can release it to the world!"
 
