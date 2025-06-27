@@ -5,6 +5,7 @@
 
 define e = Character("Bill")
 define s = Character("Stan")
+define f = Character("Ford")
 
 
 # The game starts here.
