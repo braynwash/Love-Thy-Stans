@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 17: Line is indented, but the preceding ATL statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    zoom 0.35
+File "game/spider_minigame.rpy", line 15: expected 'comma or end of line' not found.
+    $ x1, y1 = random_pos()
     ^
 
 Ren'Py Version: Ren'Py 8.3.6.25022803
-Fri Jun 27 15:18:06 2025
+Fri Jun 27 21:48:07 2025

@@ -33,43 +33,43 @@ image bill upset:
 
 image ford upset:
     "ford upset.png"
-    zoom 0.35
+    zoom 0.43  
 
 image ford excited:
     "ford excited.png"
-    zoom 0.35
+    zoom 0.43
 
 image ford neutral:
     "ford neutral.png"
-    zoom 0.35
+    zoom 0.43
 
 image ford annoyed:
     "ford annoyed.png"
-    zoom 0.35
+    zoom 0.43
 
 image ford confused:
     "ford confused.png"
-    zoom 0.35
+    zoom 0.43
 
 image ford flustered:
-    "ford flusterd.png"
-    zoom 0.35
+    "ford flustered.png"
+    zoom 0.43
 
 image ford happy:
     "ford happy.png"
-    zoom 0.35
+    zoom 0.43
 
 image ford sad:
     "ford sad.png"
-    zoom 0.35
+    zoom 0.43
 
 image stan excited:
     "stan excited.png"
-    zoom 0.35
+    zoom 0.43
 
 image stan neutral:
     "stan neutral.png"
-    zoom 0.35
+    zoom 0.43
 
 image stan annoyed:
     "stan annoyed.png"
