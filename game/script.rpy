@@ -108,6 +108,8 @@ label start:
     label after_spider_game:
     narrator "minigame end"
 
+    # RILEY NOTES - need to add the letter asset here whenever we get it, but for now it can just be dialogue. 
+
       
 
     # This ends the game.
