@@ -1,16 +1,16 @@
-2025-06-27 20:18:43 UTC
+2025-06-28 01:43:42 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.6.25022803
 
 Early init took 0.05s
-Loading error handling took 0.03s
+Loading error handling took 0.02s
 Loading script took 0.13s
-Loading save slot metadata took 0.07s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
 Running init code took 0.03s
-Loading analysis data took 0.02s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.00s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\dulak\\AppData\\Roaming/RenPy/backups\\Love-Thy-Stans':
 Dump and make backups took 0.03s
@@ -20,30 +20,33 @@ Initial gc took 0.02s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.14s
+Creating interface object took 0.15s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.02s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.00s
-Save screen analysis took 0.02s
-Prepare screens took 0.04s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
 Save pyanalysis. took 0.01s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 1.02s
+Interface start took 0.14s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1200)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) RaptorLake-S Mobile Graphics Controller'
-Version: b'4.6.0 - Build 32.0.101.6129'
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce RTX 4070 Laptop GPU/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 576.80'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1111) drawable=(1920, 1111)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1111) drawable=(1920, 1111)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1111) drawable=(1920, 1111)
-Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

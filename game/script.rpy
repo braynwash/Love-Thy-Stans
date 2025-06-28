@@ -12,6 +12,10 @@ image bill excited:
     "bill excited.png"
     zoom 0.35
 
+image bill neutral:
+    "bill neutral.png"
+    zoom 0.35
+
 image bg living room:
     "bg living room.jpg"
     zoom 0.75
@@ -37,7 +41,7 @@ label start:
 
     bill "I'm bill monkey wrench and I love kissing ford"
 
-    bill "Once you add a story, pictures, and music, you can release it to the world!"
+    
 
     # This ends the game.
 
