@@ -16,7 +16,7 @@ image bill confused:
     zoom 0.35
 
 image bill flustered:
-    "bill flusterd.png"
+    "bill flustered.png"
     zoom 0.35
 
 image bill happy:
@@ -128,3 +128,7 @@ image stan upset blush:
 image bg living room:
     "bg living room.jpg"
     zoom 0.75
+
+image bg bedroom:
+    "bg bedroom.png"
+    zoom 0.50

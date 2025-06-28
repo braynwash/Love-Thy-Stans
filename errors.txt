@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/spider_minigame.rpy", line 15: expected 'comma or end of line' not found.
-    $ x1, y1 = random_pos()
-    ^
+File "game/script.rpy", line 255: expected statement.
+    ford at fade_out_to_left
+         ^
 
 Ren'Py Version: Ren'Py 8.3.6.25022803
-Fri Jun 27 21:48:07 2025
+Sat Jun 28 11:31:54 2025
