@@ -488,8 +488,76 @@ label start:
                     #SHOW KEY ART
 
                 "Free Ford from the trap":
-                    narrator "placeholder"
 
+                    scene bg party all ghosts
+                    narrator "You begin to slowly creep towards Ford, internally wincing at every word and jab they aim at him. You consider jumping in like a valiant knight to defend your author’s honor, but you figure that’ll just embarrass the guy more, so you stay quiet."
+
+                    narrator "Right as you come up behind Ford to untie him, you see his wrists shake loose of the rope and he pulls some tool out of his pocket. Whatever it is, he shakes it wildly and the ghosts start dissolving with a wretched shriek, journal falling open on the ground with a thud."
+
+
+                    scene bg party 
+                    narrator "You straighten up, somewhat impressed, watching as Ford heaves his upper body up to cut the rope tying his ankles together. "
+                    narrator "He falls to the ground with a hearty oof- and seems to just lay there for a moment."
+
+                    show bill confused at fade_in_from_right
+
+                    bill "Uhh, earth to Sixer?"
+
+                    narrator "Ford turns his head to see you standing there and quickly jolts up, dusting off the ends of his clothes as he grabs his journal and stuffs it back into place within his coat."
+
+                    show ford neutral at fade_in_from_left
+
+                    ford "Ah, hello, Bill. How long have you been there?"
+
+                    bill "Ehh, for a {i}little{/i} bit. I got the jist. Those ghosts sure were pieces of work, huh?"
+
+                    ford "Oh. So, you... heard everything, then?"
+
+                    bill "Sure did! A bunch of drivel- don’t let it get to you Fordsy. They don’t know what they’re talking about."
+
+                    show ford sad 
+
+                    ford "...Right."
+
+                    ford "Regardless, I... apologize. For ruining our night out at this special event no less. I let my thirst for the unknown get the better of my brain."
+
+                    show bill happy 
+
+                    bill "Oh come on, it’s not that bad. I’m sure you managed to get some good notes out of the deal!"
+
+                    show ford happy 
+
+                    narrator "Ford brightens slightly, grabbing his journal from his coat and flipping it open to the latest page. He then immediately slumps down, defeated."
+
+                    show ford upset 
+
+                    ford "All of which are now covered with mud. Let’s just... go."
+
+                    bill "“Aw, don’t give up yet, Sixer! Sure, yeah, a few pages got a little dirty, but this is prime cryptid real-estate! Let’s head back to the party! "
+                    bill "I’m sure there’s some freaky whacko just waiting for you to ask them a million questions."
+
+                    show ford sad 
+
+                    show bill neutral
+                    narrator "Ford stares at you silently for a moment, brows furrowing. You think back to what you had just said and mentally curse yourself. "
+                    narrator "Any word related to “freak” should be the last thing in your vocabulary right now."
+
+                    show ford upset 
+
+                    ford "...I will see you back at home, Bill."
+
+                    show bill confused 
+
+                    bill "Wait, Ford-"
+
+                    hide ford with dissolve
+
+                    hide bill with dissolve
+
+                    narrator "Ford turns away, a six-fingered hand gripping his journal with barely concealed disappointment and anger. "
+                    narrator "You wait until he is {i}mostly{/i} out of ear shot before groaning loudly. Great."
+
+                    narrator "You start heading towards where Ford went, trying to think of anything to say to make this better. You come up with nothing."
 
         "Join the party.":
             show bill happy
