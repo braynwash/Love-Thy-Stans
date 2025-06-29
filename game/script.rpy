@@ -12,7 +12,7 @@ define sleepy = Character("Sleepy Ghost")
 define angry = Character("Angry Ghost")
 define silly = Character("Silly Ghost")
 define carmilla = Character("Carmilla")
-define grabby = Character("Mr. Grabby Pants")
+define grabby = Character("Mr. Grabby Hooves")
 
 transform fade_in_from_right:
     alpha 0.0
@@ -59,11 +59,11 @@ label start:
 
     # These display lines of dialogue.
 
-    ford "And if I carry the… {i}then{/i} add the…"
+    ford "And if I carry the 7… {i}then{/i} add the-"
 
     show bill neutral at fade_in_from_right
 
-    narrator "You slink into the living room, yawning and stretching as you approach the one and only Stanford Pines looming over a mile-long set of numbers and complex equations."
+    narrator "You slink into the living room, stretching with a yawn as you approach the one and only Stanford Pines looming over a mile-long set of numbers and complex equations."
 
     show bill confused 
 
@@ -103,7 +103,7 @@ label start:
 
     show ford happy
 
-    ford "Goodnight, Bill"
+    ford "Goodnight, Bill."
 
     
 
@@ -122,7 +122,7 @@ label start:
     call screen spider_minigame
 
     label after_spider_game:
-    narrator "Suppressing your disgust as you swat at the abundance of arachnids, you smack away a smaller spider that drops a fancy-looking purple envelope (all these spiders to deliver a single letter? The melodrama!)"
+    narrator "Suppressing your disgust as you swat at the abundance of arachnids, you smack away a smaller spider that drops a fancy-looking purple envelope. (All these spiders to deliver a single letter? The melodrama!)"
 
     # RILEY NOTES - need to add the letter asset here whenever we get it, but for now it can just be dialogue. 
 
@@ -180,7 +180,7 @@ label start:
 
             show bill neutral
 
-            bill "You let out an exaggerated yawn, effectively interrupting Ford from spiraling into a signature rant."
+            narrator "You let out an exaggerated yawn, effectively interrupting Ford from spiraling into a signature rant."
 
             show ford flustered
 
@@ -203,13 +203,13 @@ label start:
 
             show ford excited at fade_in_from_left
 
-            ford "Bill, wake up! Have you read this letter? It’s addressed to you and I found it laying on the table next to one of Slu’s…spider… things…?"
+            ford "Bill, wake up! Have you read this letter? It’s addressed to you and I found it laying on the table next to one of Slu’s… ah, spider… things…?"
 
             ford "I understand it wasn’t- ah, {i}addressed{/i} to me, my apologies for opening it… But, it tells of an exclusive event in the Crawlspace tomorrow evening! An event where I am the {i}guest of honor{/i}! What an opportunity!"
 
             ford "We should- no no, we NEED to go! You {i}must{/i} come as my plus one! {i}Imagine{/i} all the research we could accomplish!"
 
-            narrator "You stifle a weary groan in your throat, now thoroughly awake again. It seems like you don't have much choice in going"
+            narrator "You stifle a weary groan in your throat, now thoroughly awake again. It seems like you don't have much choice in going."
 
             narrator "Even while tired and grumpy, you find that you can’t possibly say no to Ford, however- not when his face is beaming and his eyes are on you, full of stars."
 
@@ -278,7 +278,7 @@ label start:
 
     scene bg party
 
-    narrator "You and Ford arrive at the Cryptid Exchange with the author {i}shaking{/i} in excitement next to you. You look around and stifle a groan at the sight of an assortment of creatures noshing, dancing, drinking and partaking in an intoxicated, absolutely unregulated round of axe-throwing."
+    narrator "You and Ford arrive at the Cryptid Exchange with the author {i}shaking{/i} in excitement next to you. You look around and stifle a groan at the sight of an assortment of creatures noshing, dancing, and drinking.Right by the entrance, an intoxicated and absolutely unregulated round of axe-throwing is taking place."
     
     narrator "Looks like a good time, but can’t possibly be safe for your mortal."
 
@@ -299,8 +299,6 @@ label start:
     narrator "There’s silence where the space should’ve been filled with Ford’s utmost understanding and praise. You whip around, expecting him to be entranced in the scene, but Ford is nowhere to be found."
 
     hide bill with dissolve 
-
-    narrator "There’s silence where the space {i}should’ve{/i} been filled with Ford’s utmost understanding and praise. You whip around, expecting him to be entranced in the scene, but Ford is nowhere to be found."
 
     narrator "Panic bubbles in your gut and your breath quickens as you frantically turn in numerous directions, but it settles when you notice the tail end of a brown coat across the crowd, along the trees."
 
@@ -335,7 +333,7 @@ label start:
 
             hide bill with dissolve
 
-            narrator "Pushing past Mr. Grabby Pants, you make your way towards where you last saw Ford’s coat, grumbling to yourself all the while."
+            narrator "Pushing past Mr. Grabby Hooves, you make your way towards where you last saw Ford’s coat, grumbling to yourself all the while."
 
             scene bg party some ghosts
 
@@ -375,13 +373,13 @@ label start:
 
             narrator "Your stomach turns as you hear cackling laughter echo through the clearing. The ghost holding the journal begins roughly paging through it’s contents, much to Ford’s dismay."
 
-            silly "‘The Gremloblin..?’ Dude, you mean {i}Claire?{/i} I just saw her the other day! You get your ‘classified research’ by stalking random creatures in the woods all day?"
+            silly "‘The Gremloblin..?’ Dude, I just saw her the other day! She has a {i}name,{/i} y'know. You get your ‘classified research’ by stalking random creatures in the woods all day?"
 
             angry "If this is the “research” you dedicate your life to, you must not be very smart. These are some of the most elementary notes I’ve seen in a while."
 
             show ford upset 
 
-            ford "Not very smart!? Wh- {i}Elementary!?{/i} I will have you know I have twelve P.H.Ds, thank you very much!"
+            ford "Not very smart!? Wh- {i}Elementary!?{/i} I will have you know I have {i}twelve{/i} P.H.Ds, thank you very much!"
 
             hide ford 
 
@@ -389,7 +387,7 @@ label start:
 
             sleepy "This just seems... useless. What would you use some field notes for?"
 
-            silly "Ooh man, what a riot! I don’t think I’ve even heard of some of these guys- ‘Stomach-Faced Ducks’ and… ‘Plaidypus’? You find these at the circus?"
+            silly "Ooh man, what a riot! I've never even seen some of these guys- ‘Stomach-Faced Ducks’ and… ‘Plaidypus’? You find them at the circus?"
 
             show ford sad 
 
@@ -483,7 +481,7 @@ label start:
 
                     show bill happy
 
-                    bill "Any time, sixer"
+                    bill "Any time, Sixer."
 
                     #SHOW KEY ART
 
@@ -496,7 +494,7 @@ label start:
 
 
                     scene bg party 
-                    narrator "You straighten up, somewhat impressed, watching as Ford heaves his upper body up to cut the rope tying his ankles together. "
+                    narrator "You straighten up, somewhat impressed, watching as Ford heaves his upper body up to cut the rope tying his ankles together."
                     narrator "He falls to the ground with a hearty oof- and seems to just lay there for a moment."
 
                     show bill confused at fade_in_from_right
@@ -534,12 +532,14 @@ label start:
                     ford "All of which are now covered with mud. Let’s just... go."
 
                     bill "“Aw, don’t give up yet, Sixer! Sure, yeah, a few pages got a little dirty, but this is prime cryptid real-estate! Let’s head back to the party! "
+
                     bill "I’m sure there’s some freaky whacko just waiting for you to ask them a million questions."
 
                     show ford sad 
 
                     show bill neutral
-                    narrator "Ford stares at you silently for a moment, brows furrowing. You think back to what you had just said and mentally curse yourself. "
+                    narrator "Ford stares at you silently for a moment, brows furrowing. You think back to what you had just said and mentally curse yourself."
+
                     narrator "Any word related to “freak” should be the last thing in your vocabulary right now."
 
                     show ford upset 
@@ -554,7 +554,8 @@ label start:
 
                     hide bill with dissolve
 
-                    narrator "Ford turns away, a six-fingered hand gripping his journal with barely concealed disappointment and anger. "
+                    narrator "Ford turns away, a six-fingered hand gripping his journal with barely concealed disappointment and anger."
+
                     narrator "You wait until he is {i}mostly{/i} out of ear shot before groaning loudly. Great."
 
                     narrator "You start heading towards where Ford went, trying to think of anything to say to make this better. You come up with nothing."
@@ -563,7 +564,7 @@ label start:
             show bill happy
             bill "Y’know what- sure, why not? I’ll come ‘party' with you."
 
-            narrator "The group of fae folk all cheer and whoop in excitement, steering you towards the Crawlspace as they continue their idle chatter. You allow yourself to be drug deep into the underground but wrench your hand out of the satyr’s grip. "
+            narrator "The group of fae folk all cheer and whoop in excitement, steering you towards the Crawlspace as they continue their idle chatter. You allow yourself to be drug deep into the underground but wrench your hand out of the satyr’s grip."
         
             narrator "Six-fingered hands {i}only,{/i} pal."
 
@@ -591,7 +592,7 @@ label start:
 
             bill "Oh you have {i}GOT{/i} to be KIDDING ME!!"
 
-            narrator "In some cruel twist of fate (yuck it up, Ax!), standing in the middle of the fighting ring with a bruised face and raised fists, is Sixer’s worthless, no good copy- the one living being you hate more than anything else on this worthless hunk of rock- is Stanley Pines himself. "
+            narrator "In some cruel twist of fate (yuck it up, Ax!), standing in the middle of the fighting ring with a bruised face and raised fists, is Sixer’s worthless, no good copy- the one living being you hate more than anything else on this worthless hunk of rock- is Stanley Pines himself."
 
             hide bill 
 
@@ -601,7 +602,7 @@ label start:
 
             hide stan with dissolve 
 
-            narrator "You groan loudly and smack your head against the edge of the ring, eliciting some cold glares from the crowd around you. "
+            narrator "You groan loudly and smack your head against the edge of the ring, eliciting some cold glares from the crowd around you."
             
             narrator "This genuinely {i}can’t{/i} be happening right now. You died on the way here and this is your own personal hell."
 
@@ -640,13 +641,13 @@ label start:
 
                     show stan shocked blush
 
-                    stan "Ha- yeah… well, if you ever want to, I don’t know, see me fight again, uhhh… here’s my number. Call if you want. Or don’t. Don’t care."
+                    stan "Ha- yeah… well, if you ever want to, I don’t know, see me fight again, uhhh… here’s my number. Not sure when I'll be back in town, so... Call if you want. Or don’t. Don’t care."
 
                     show bill flustered
 
                     show stan confused
 
-                    narrator "This truly is your own personal hell. You scowl down at the paper, absolutely offended this con-man thinks he could make any kind of move on you. "
+                    narrator "This truly is Hell. You scowl down at the paper, absolutely offended this con-man thinks he could make any kind of move on you. "
                    
                     narrator "Before you can turn tail and shove your way out of the crowd, you feel seemingly hundreds of eyes on your back, ignoring your plight and ooo-ing and aaa-ing at the nightmarish display."
 
@@ -676,15 +677,15 @@ label start:
 
                     show stan angry blush at fade_in_from_left_stan_wide
 
-                    stan "Hey, what gives!? What’d I ever do to you? Ugh, look, if I owe you some money—"
+                    stan "Hey, what gives!? What’d I ever do to you? Ugh, listen, if I owe you some money—"
 
                     show bill annoyed 
 
-                    bill "What did you ever do to me?"
+                    bill "What did {i}you{/i} ever do to {i}me{/i}?"
 
                     show bill upset
 
-                    bill "You son of a bi—"
+                    bill "Oh, you son of a bi—"
 
                     hide bill with dissolve
 
@@ -698,6 +699,8 @@ label start:
 
                     stan "...Huh? No, that hobo’s not my plus one; that hot vampire lady over there totally is, though."
 
+                    # jeremy note not sure if i wanna keep this block
+
                     show stan happy blush 
 
                     stan "CARMILLA!! DID YOU SEE ME??”"
@@ -707,6 +710,8 @@ label start:
                     carmilla "Stanley, for the last time, I am not interested. I am literally just here to see Slu."
 
                     narrator "You try and fail to stifle a wicked laugh."
+
+                    # block end
 
                     hide stan with dissolve
 
@@ -724,7 +729,7 @@ label start:
                     scene bg party 
 
                     narrator "Returning to the surface, you’re thrown back out into the forest and you can {i}feel{/i} a banishing spell looming over you, preventing you from going back inside. "
-                    narrator "You have no choice but to sit and wait for Ford to re-emerge. "
+                    narrator "You have no choice but to sit and wait for Ford, wherever he is. "
                     narrator "Best. party. {i}ever.{/i} "
                     
 
