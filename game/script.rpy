@@ -6,7 +6,7 @@
 define bill = Character("Bill")
 define stan = Character("Stan")
 define ford = Character("Ford")
-define narrator = Character("Narrator")
+define narrator = Character("")
 define guest = Character("Random Guest")
 define sleepy = Character("Sleepy Ghost")
 define angry = Character("Angry Ghost")
@@ -28,7 +28,15 @@ transform fade_out_to_left:
     on hide:
         linear 0.5 xpos -0.5 alpha 0.0
 
+transform fade_in_from_left_stan:
+    alpha 0.0
+    xpos -0.3 yalign 1.0  # start slightly offscreen left
+    linear 0.5 xpos 0.35 alpha 1.0  # move to slightly left of center
 
+transform fade_in_from_left_stan_wide:
+    alpha 0.0
+    xpos -0.3 yalign 1.0
+    linear 0.5 xpos 0.05 alpha 1.0  # adjusted closer to center
 
 
 
@@ -380,17 +388,119 @@ label start:
                 "Say nothing.":
                     show bill annoyed at fade_in_from_right
 
-                    show stan upset at fade_in_from_left
+                    show stan upset at fade_in_from_left_stan
 
                     narrator "You say nothing, not wanting to waste your breath on your author’s cheap copy. Stan huffs and turns back to his opponent; despite your “rejection,” he rears back with newfound confidence."
 
                     hide stan with dissolve
 
+                    show bill neutral 
+
                     narrator "You watch the bumbling idiot rear back to full height and wince when Stan lands a hit square in his opponents’ jaw, effectively winning the match."
 
-                "Leave loudly.":
-                    narrator "placeholder"
+                    narrator "Stan (to your dismay) wins his final match of the night, and he turns to face you again."
 
+                    show stan happy blush at fade_in_from_left_stan_wide
+
+                    show bill confused 
+
+                    stan "Enjoy the fight, toots? Don’t answer that, I know you did."
+
+                    show bill upset
+
+                    bill "That was genuinely the worst fight I have ever had the human displeasure of witnessing."
+
+                    show stan shocked blush
+
+                    stan "Ha- yeah… well, if you ever want to, I don’t know, see me fight again, uhhh… here’s my number. Call if you want. Or don’t. Don’t care."
+
+                    show bill flustered
+
+                    show stan confused
+
+                    narrator "This truly is your own personal hell. You scowl down at the paper, absolutely offended this con-man thinks he could make any kind of move on you. "
+                   
+                    narrator "Before you can turn tail and shove your way out of the crowd, you feel seemingly hundreds of eyes on your back, ignoring your plight and ooo-ing and aaa-ing at the nightmarish display."
+
+                    show stan happy 
+
+                    narrator "Sighing with great effort and wrenching your eyes shut, you take the crumpled slip of paper with the scrawled-out number like it burns to the touch, stuffing it in your pocket for Sixer to block later."
+
+                    hide bill with dissolve
+
+                    hide stan with dissolve
+
+                    narrator "And if your face was flushing; the room was stuffy, you saw your mother in the crowd, you’re coming down with the flu and you remembered you left your stove on. Your red face had absolutely nothing to do with this lesser Stans’ pathetic attempt at flirting."
+
+                    # SHOW KEY ART 
+
+
+                "Leave loudly.":
+
+                    hide stan 
+
+                    show bill upset at fade_in_from_right
+
+                    bill "{i}Enjoying the show?!{/i} You listen here, you lousy, sad use of oxygen-!"
+
+                    narrator "You break off, coughing. The surrounding creatures look at you in a mix of shock, exasperation, and anger. "
+                    narrator "You’re embarrassed of yourself for getting so worked up over Sixer’s cheap copy, but after catching a glimpse of Stan’s embarrassed face, you feel proud."
+
+                    show stan angry blush at fade_in_from_left_stan_wide
+
+                    stan "Hey, what gives!? What’d I ever do to you? Ugh, look, if I owe you some money—"
+
+                    show bill annoyed 
+
+                    bill "What did you ever do to me?"
+
+                    show bill upset
+
+                    bill "You son of a bi—"
+
+                    hide bill with dissolve
+
+                    hide stan with dissolve
+
+                    narrator "You feel another hand gripping onto you again, this time pulling you away from the ring and out towards the door."
+
+                    grabby "Hey! C’mon man, no insulting our esteemed guest. I thought you were his plus one?"
+
+                    show stan shocked 
+
+                    stan "...Huh? No, that hobo’s not my plus one; that hot vampire lady over there totally is, though."
+
+                    show stan happy blush 
+
+                    stan "CARMILLA!! DID YOU SEE ME??”"
+
+                    show stan confused 
+
+                    carmilla "Stanley, for the last time, I am not interested. I am literally just here to see Slu."
+
+                    narrator "You try and fail to stifle a wicked laugh."
+
+                    hide stan with dissolve
+
+                    show bill excited 
+
+                    bill "HA! You’ll always be alone, you cheap, half-wit, no good clone of-!"
+
+                    hide bill 
+
+                    narrator "You continue to sling 30 years worth of insults Stan's way even as you’re forcibly yanked from the crowd and out through the Crawlspace. "
+                    narrator "Your eyes flick around the different hallways and corridors in search of the real Guest of Honor- the better half- but he’s nowhere to be seen underground. Damn it all."
+
+                    hide bill 
+
+                    scene bg party 
+
+                    narrator "Returning to the surface, you’re thrown back out into the forest and you can {i}feel{/i} a banishing spell looming over you, preventing you from going back inside. "
+                    narrator "You have no choice but to sit and wait for Ford to re-emerge. "
+                    narrator "Best. party. {i}ever.{/i} "
+                    
+
+                
 
     # This ends the game.
     return
