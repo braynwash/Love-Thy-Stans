@@ -140,3 +140,11 @@ image bg party:
 image bg fighting:
     "bg fighting.PNG"
     zoom 0.90
+
+image bg party some ghosts:
+    "bg party some ghosts.PNG"
+    zoom 0.83
+
+image bg party all ghosts:
+    "bg party all ghosts.PNG"
+    zoom 0.83

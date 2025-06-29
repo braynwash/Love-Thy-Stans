@@ -327,8 +327,168 @@ label start:
     menu:
         
         "Look for Ford.":
-            bill "placeholder"
+        
+            narrator "You just {i}know{/i} you saw your author ambling out past the forest. You aren’t sure who is down there getting the “esteemed guest” treatment, but it isn’t Stanford Pines."
+            show bill annoyed
 
+            bill "Look- if you think I want to 'party' with you people, you’re almost as insane as me. Get lost, I have a nerd to catch."
+
+            hide bill with dissolve
+
+            narrator "Pushing past Mr. Grabby Pants, you make your way towards where you last saw Ford’s coat, grumbling to yourself all the while."
+
+            scene bg party some ghosts
+
+            narrator "Winding into the forest, you end up in a clearing far away from most of the party. You hear shrill, echoed laughter a little deeper into the trees and come across a group of ghosts, jeering at something caught in a crude rope trap hoisted in the tall branches."
+
+            narrator "You quickly dart behind a sprawling birch tree, hoping you’ve gone unnoticed. When the ghosts continue their verbal assault on their upside down victim, you silently peer around and squint into the darkness."
+
+            narrator "It’s tricky to make out who it is through the dark, but you have a sneaking suspicion you already know who’s snagged in that trap."
+
+            # ADD GHOSTS HERE WHEN WE HAVE THEM 
+
+            angry "Well, well, well… Look what we’ve got here. Another foolish human flaunting around their flesh bag, mocking us!"
+
+            sleepy "How’d a {i}human{/i} get invited anyways? And such a scrawny one at that…"
+
+            show ford confused 
+
+            ford "Mocking? Oh no, I-I would never! And I mean no disrespect! I was just hoping to conduct research on the various cryptids attending this event!"
+
+            show ford flustered
+
+            ford "Ah- would you spirits be so kind as to untie my leg? I am starting to feel a bit faint…"
+
+            hide ford with dissolve 
+
+            narrator "Of course {i}Stanford Pines{/i} got himself into this sort of mess. You kick yourself a little for not keeping a closer eye on him."
+
+            narrator "Ford nervously chuckles, anticipating this to be one very unfortunate trick or joke of some kind, but the sound trails off as the 2 ghosts stare at him blankly. As you try to think of a plan to get your devotee out of this predicament, you see another ghost ransack Ford’s fallen items and reach for his journal."
+
+            silly "Woah ho ho- you guys NEED to see this."
+
+            show ford confused 
+
+            ford "Hey-! That is highly classified research! You have no right to look at that!"
+
+            hide ford with dissolve
+
+            narrator "Your stomach turns as you hear cackling laughter echo through the clearing. The ghost holding the journal begins roughly paging through it’s contents, much to Ford’s dismay."
+
+            silly "‘The Gremloblin..?’ Dude, you mean {i}Claire?{/i} I just saw her the other day! You get your ‘classified research’ by stalking random creatures in the woods all day?"
+
+            angry "If this is the “research” you dedicate your life to, you must not be very smart. These are some of the most elementary notes I’ve seen in a while."
+
+            show ford upset 
+
+            ford "Not very smart!? Wh- {i}Elementary!?{/i} I will have you know I have twelve P.H.Ds, thank you very much!"
+
+            hide ford 
+
+            narrator "You cringe at the display. Hasn’t your author learned by now that sometimes it’s just better to keep your mouth shut?"
+
+            sleepy "This just seems... useless. What would you use some field notes for?"
+
+            silly "Ooh man, what a riot! I don’t think I’ve even heard of some of these guys- ‘Stomach-Faced Ducks’ and… ‘Plaidypus’? You find these at the circus?"
+
+            show ford sad 
+
+            ford "Do not mock me! The Plaidypus’ pelt is actually extremely sought after and useful! And these ‘field notes’ as you call them are all for my Grand Unified Theory of Weir-"
+
+            hide ford 
+
+            angry "Maybe {i}he’s{/i} from the circus. See that handprint on the cover? What kind of creature even {i}has{/i} six fingers?"
+
+            sleepy "None that I know of… until now."
+
+            narrator "You freeze, feeling your blood boiling within you. You would do almost anything to feel blue fire dance at your fingertips right now; this entire forest would be {i}gone.{/i}"
+
+            narrator "Ford’s silence aches throughout the trees, and as you hear the ghosts continue to bully him, you push yourself out from behind your hiding spot."
+
+
+            menu:
+                "Take the journal back.":
+
+                    scene bg party all ghosts
+
+                    narrator "You creep up behind the ghosts, trying to stay quiet through your anger. As you do, you meet Ford’s gaze and he flushes, looking ashamed; only spurring you on further."
+
+                    narrator "The idiot ghosts continue to cackle away as you launch yourself from behind the group towards the journal, latching onto it and pulling it close to your chest. The ghosts yelp in shock and you position yourself to stand in front of Ford, covering him from their piercing gazes."
+
+                    silly "Hey- what the hell, man?!"
+
+                    show bill upset
+
+                    bill "Yeah, yeah, keep yucking it up, assholes! Make fun of this journal all you want- I’ll have you know there’s actually some pretty cool stuff in here!"
+
+                    hide bill with dissolve
+
+                    narrator "The ghosts glance at each other, all in various stages of a wince, as you launch into a long-winded rant about Scampfires’ eating habits and the logistics of the Question Quail's speech patterns."
+
+                    scene bg party some ghosts
+                    narrator "You don’t even notice the ghosts fading away, dying once again- this time from intense amounts of boredom."
+
+
+                    scene bg party
+                    show bill happy at fade_in_from_right
+
+                    bill "And THAT’S why gnomes are the most insufferable creatures in this realm. Bet you don’t have anything to say now, do ya?"
+
+                    show ford flustered at fade_in_from_left
+
+                    ford "Ah- my muse, I believe they.. left..?"
+
+                    narrator "You whip your head around to see Ford in all his upright glory with his face flushed and his eyes darting everywhere you aren’t. "
+
+                    show bill flustered
+
+                    bill "Huh? Oh- yeah, well, TAKE THAT GHOSTS!"
+
+                    show bill happy
+
+                    bill "Those wash-ups don’t know what they’re talking about, Sixer- don’t listen to them."
+
+                    show bill confused 
+
+                    bill "Wait a minute- how’d you get free?"
+
+                    show ford excited 
+
+                    ford "Ah! I managed to cut myself free when you were explaining the physics behind the Bottomless Pit. "
+
+                    show bill annoyed 
+
+                    bill "{i}That{/i} long ago?! And you {i}still{/i} let me yap??"
+
+                    show ford flustered 
+
+                    ford "My apologies, it was just- uh. Nice to hear somebody appreciate my research. Thank you."
+
+                    hide ford with dissolve
+                    hide bill with dissolve
+
+                    narrator "You freeze as you suddenly feel arms wrap tight around. Oh Circles. You aren’t entirely sure what to do here, but you reluctantly hug Ford back, pressing your cheek into his jacket and sighing."
+
+                    narrator "After about 10 totally short seconds you decide you’ve had enough of this awkward human affection and pull away, patting a blushing Ford on the back. "
+
+                    show bill flustered at fade_in_from_right
+
+                    show ford flustered at fade_in_from_left
+
+                    bill "We should, uh- head back to the party, Fordsy. It’s a little stuffy surrounded by all of these trees! We- you- okay, just. Grab my hand. So we won't lose each other again."
+
+                    show ford excited 
+
+                    ford "Ah, yes-! That makes {i}perfect{/i} sense to me! Thank you again, my muse"
+
+                    show bill happy
+
+                    bill "Any time, sixer"
+
+                    #SHOW KEY ART
+
+                "Free Ford from the trap":
+                    narrator "placeholder"
 
 
         "Join the party.":
