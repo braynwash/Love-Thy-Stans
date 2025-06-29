@@ -436,7 +436,7 @@ label start:
 
                     ford "Ah- my muse, I believe they.. left..?"
 
-                    narrator "You whip your head around to see Ford in all his upright glory with his face flushed and his eyes darting everywhere you aren’t. "
+                    narrator "You whip your head around to see Ford in all his upright glory with his face flushed and his eyes darting everywhere you aren’t."
 
                     show bill flustered
 
@@ -452,11 +452,11 @@ label start:
 
                     show ford excited 
 
-                    ford "Ah! I managed to cut myself free when you were explaining the physics behind the Bottomless Pit. "
+                    ford "Ah! I managed to cut myself free when you were explaining the physics behind the Bottomless Pit."
 
                     show bill annoyed 
 
-                    bill "{i}That{/i} long ago?! And you {i}still{/i} let me yap??"
+                    bill "{i}That{/i} long ago?! And you {i}still{/i} let me yap?"
 
                     show ford flustered 
 
@@ -467,7 +467,7 @@ label start:
 
                     narrator "You freeze as you suddenly feel arms wrap tight around. Oh Circles. You aren’t entirely sure what to do here, but you reluctantly hug Ford back, pressing your cheek into his jacket and sighing."
 
-                    narrator "After about 10 totally short seconds you decide you’ve had enough of this awkward human affection and pull away, patting a blushing Ford on the back. "
+                    narrator "After about 10 totally short seconds you decide you’ve had enough of this awkward human affection and pull away, patting a blushing Ford on the back."
 
                     show bill flustered at fade_in_from_right
 
@@ -531,7 +531,7 @@ label start:
 
                     ford "All of which are now covered with mud. Let’s just... go."
 
-                    bill "“Aw, don’t give up yet, Sixer! Sure, yeah, a few pages got a little dirty, but this is prime cryptid real-estate! Let’s head back to the party! "
+                    bill "“Aw, don’t give up yet, Sixer! Sure, yeah, a few pages got a little dirty, but this is prime cryptid real-estate! Let’s head back to the party!"
 
                     bill "I’m sure there’s some freaky whacko just waiting for you to ask them a million questions."
 
@@ -672,7 +672,7 @@ label start:
 
                     bill "{i}Enjoying the show?!{/i} You listen here, you lousy, sad use of oxygen-!"
 
-                    narrator "You break off, coughing. The surrounding creatures look at you in a mix of shock, exasperation, and anger. "
+                    narrator "You break off, coughing. The surrounding creatures look at you in a mix of shock, exasperation, and anger."
                     narrator "You’re embarrassed of yourself for getting so worked up over Sixer’s cheap copy, but after catching a glimpse of Stan’s embarrassed face, you feel proud."
 
                     show stan angry blush at fade_in_from_left_stan_wide
@@ -728,9 +728,9 @@ label start:
 
                     scene bg party 
 
-                    narrator "Returning to the surface, you’re thrown back out into the forest and you can {i}feel{/i} a banishing spell looming over you, preventing you from going back inside. "
-                    narrator "You have no choice but to sit and wait for Ford, wherever he is. "
-                    narrator "Best. party. {i}ever.{/i} "
+                    narrator "Returning to the surface, you’re thrown back out into the forest and you can {i}feel{/i} a banishing spell looming over you, preventing you from going back inside."
+                    narrator "You have no choice but to sit and wait for Ford, wherever he is."
+                    narrator "Best. party. {i}ever.{/i}"
                     
 
                 
