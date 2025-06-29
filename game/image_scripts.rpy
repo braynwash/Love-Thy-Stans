@@ -65,11 +65,11 @@ image ford sad:
 
 image stan excited:
     "stan excited.png"
-    zoom 0.43
+    zoom 0.35
 
 image stan neutral:
     "stan neutral.png"
-    zoom 0.43
+    zoom 0.35
 
 image stan annoyed:
     "stan annoyed.png"
@@ -132,3 +132,11 @@ image bg living room:
 image bg bedroom:
     "bg bedroom.png"
     zoom 0.50
+
+image bg party:
+    "bg party.PNG"
+    zoom 0.83
+
+image bg fighting:
+    "bg fighting.PNG"
+    zoom 0.90

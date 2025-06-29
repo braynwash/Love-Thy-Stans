@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 255: expected statement.
-    ford at fade_out_to_left
-         ^
+File "game/script.rpy", line 350: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+                narrator placeholder"
 
 Ren'Py Version: Ren'Py 8.3.6.25022803
-Sat Jun 28 11:31:54 2025
+Sat Jun 28 21:57:18 2025
